@@ -8,40 +8,10 @@ const insertIntoDB = async (data: Category): Promise<Category> => {
   return result;
 };
 
-const getAllFromDB = async () =>
-  //   options: IPaginationOptions
-  {
-    //   const { page, limit, skip } = paginationHelpers.calculatePagination(options);
-
-    const result = await prisma.category.findMany({
-      // skip,
-      // take: limit,
-      // orderBy:
-      //   options.sortBy && options.sortOrder
-      //     ? {
-      //         [options.sortBy]: options.sortOrder,
-      //       }
-      //     : {
-      //         createdAt: 'desc',
-      //       },
-    });
-    return result;
-  };
-//   const total = await prisma.category.count({
-//     skip,
-//     take,
-//     orderBy
-//   });
-
-//   return {
-//     meta: {
-//       page,
-//       limit,
-//       total,
-//     },
-//     data: result,
-//   };
-// };
+const getAllFromDB = async () => {
+  const result = await prisma.category.findMany({});
+  return result;
+};
 
 const getByIdFromDB = async (id: string): Promise<Category | null> => {
   const result = await prisma.category.findUnique({

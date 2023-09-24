@@ -84,6 +84,41 @@
             "date": 1695539044232,
             "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-24-09-13-error.log",
             "hash": "75b9abb286f2487b7c1ece5662734aadae50825ecb453a80f6b8050fa9084dba"
+        },
+        {
+            "date": 1695560868430,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-24-09-19-error.log",
+            "hash": "9a2f1c5be134961471fdf1ea032d9c3cf74d21fc6631a3ee6d3533537eff8891"
+        },
+        {
+            "date": 1695564456361,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-24-09-20-error.log",
+            "hash": "23a49961d55f467e32f85640c314a2a08599a36ab9b9f3ba86eef6c2fa2ea93d"
+        },
+        {
+            "date": 1695568735830,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-24-09-21-error.log",
+            "hash": "b9e2404d8004a2cd929ad0230888aa3efcb33c01abf2471c274f1313be14cee3"
+        },
+        {
+            "date": 1695571985237,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-24-09-22-error.log",
+            "hash": "a4f5f0201ab29a2aa4958389f91f7e99422f95aef183717b8df347521da2d901"
+        },
+        {
+            "date": 1695577479103,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-24-09-23-error.log",
+            "hash": "798afdda81a5f22889fde9c5b0425ee52ec95526672b274c4d78ad11b05a7ad6"
+        },
+        {
+            "date": 1695579564834,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-25-09-00-error.log",
+            "hash": "9b16f67e2c210f48ad1a7643f47d58e17036b66c10fa7dae1ea28e7817aa6f64"
+        },
+        {
+            "date": 1695582882889,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-25-09-01-error.log",
+            "hash": "3667554658d2748b5d9e03de20794117bc59221be1de53fe243d53f1918f584d"
         }
     ],
     "hashType": "sha256"

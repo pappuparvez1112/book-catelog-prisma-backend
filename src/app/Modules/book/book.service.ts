@@ -22,7 +22,6 @@ const insertIntoDB = async (data: Book): Promise<Book> => {
 };
 
 const getAllFromDB = async (
-  //   priceFilter:IPriceFilter,
   filters: IBookFilterRequest,
   options: IPaginationOptions
 ): Promise<IGenericResponse<Book[]>> => {
@@ -116,46 +115,31 @@ const getByIdFromDB = async (id: string): Promise<Book | null> => {
     where: {
       id,
     },
-    //   include: {
-    //     academicFaculty: true,
-    //     academicDepartment: true,
-    //     academicSemester: true,
-    //   },
   });
   return result;
 };
 
-//   const updateIntoDB = async (
-//     id: string,
-//     payload: Partial<Student>
-//   ): Promise<Student> => {
-//     const result = await prisma.student.update({
-//       where: {
-//         id,
-//       },
-//       data: payload,
-//       include: {
-//         academicSemester: true,
-//         academicDepartment: true,
-//         academicFaculty: true,
-//       },
-//     });
-//     return result;
-//   };
+const updateIntoDB = async (
+  id: string,
+  payload: Partial<Book>
+): Promise<Book> => {
+  const result = await prisma.book.update({
+    where: {
+      id,
+    },
+    data: payload,
+  });
+  return result;
+};
 
-//   const deleteFromDB = async (id: string): Promise<Student> => {
-//     const result = await prisma.student.delete({
-//       where: {
-//         id,
-//       },
-//       include: {
-//         academicSemester: true,
-//         academicDepartment: true,
-//         academicFaculty: true,
-//       },
-//     });
-//     return result;
-//   };
+const deleteFromDB = async (id: string): Promise<Book> => {
+  const result = await prisma.book.delete({
+    where: {
+      id,
+    },
+  });
+  return result;
+};
 
 const getBookCategory = async (id: string): Promise<Category[]> => {
   const result = await prisma.category.findMany({
@@ -174,4 +158,6 @@ export const BookService = {
   getAllFromDB,
   getByIdFromDB,
   getBookCategory,
+  updateIntoDB,
+  deleteFromDB,
 };
