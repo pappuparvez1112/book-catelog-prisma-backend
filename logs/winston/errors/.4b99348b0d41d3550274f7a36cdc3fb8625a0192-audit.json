@@ -1,0 +1,90 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\.4b99348b0d41d3550274f7a36cdc3fb8625a0192-audit.json",
+    "files": [
+        {
+            "date": 1695043779127,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-18-09-19-error.log",
+            "hash": "27f8fc13571187a842fb037fb8644884452fd10e85057a28d6a6b3c3134e4eb7"
+        },
+        {
+            "date": 1695045722614,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-18-09-20-error.log",
+            "hash": "f20d4ff3044218dc22111fa2f6accf7fb59836bb6bdd2c6b66e1fcb63f1f481c"
+        },
+        {
+            "date": 1695049414902,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-18-09-21-error.log",
+            "hash": "f28a4e7f9850c8d9a8a44e4655031a399cdd48cbdf505e038ce4ef258e2e8ae3"
+        },
+        {
+            "date": 1695055258729,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-18-09-22-error.log",
+            "hash": "eaadd4fcc8575b3714a945b16b473092c38c2e4118d1ab69a0ae08b497b85764"
+        },
+        {
+            "date": 1695056559318,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-18-09-23-error.log",
+            "hash": "b7af9c07cd2b4524340ee0d4c6a22885634533a3fc484ccc15a70c5504a40d01"
+        },
+        {
+            "date": 1695061207184,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-19-09-00-error.log",
+            "hash": "ef10da421a7cc7d7aad8f60041c9dac6c02a6ef4c6d504b7fd77350748276e11"
+        },
+        {
+            "date": 1695063619689,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-19-09-01-error.log",
+            "hash": "bb47220893d9c156ffd026c2da71e5eacdbe0357a62c07228991142c78ee1b4d"
+        },
+        {
+            "date": 1695476509759,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-23-09-19-error.log",
+            "hash": "5260d451092b5ef481aeaf93bf819b35035265f99041a0921583ee6bc1a8b706"
+        },
+        {
+            "date": 1695477738761,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-23-09-20-error.log",
+            "hash": "59098f88509de45a57e9fe05dde50db99c969f774c60c07f77227051c309b297"
+        },
+        {
+            "date": 1695481644212,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-23-09-21-error.log",
+            "hash": "476ef469bb1ee2479ca02fd238452d3aab5b8524e17205732de71061da6f662f"
+        },
+        {
+            "date": 1695523128458,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-24-09-08-error.log",
+            "hash": "652701fdea0d131576a968ebeb0d4376ad0ce83589fdb1aa0262ec4f5280a89b"
+        },
+        {
+            "date": 1695527113420,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-24-09-09-error.log",
+            "hash": "ce02e49e0fe231c345d14e1fe432983fddbbb3db500014377aff78080df2fd5e"
+        },
+        {
+            "date": 1695528463499,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-24-09-10-error.log",
+            "hash": "2fd1985dca87414255ce9367b50120ff39f48da1e940b397a3e606b47c457bc0"
+        },
+        {
+            "date": 1695531606596,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-24-09-11-error.log",
+            "hash": "94df34fcbd7c1c1c7cf61f9f25a5f35452750cfb2e71603ab7693253cc720c1d"
+        },
+        {
+            "date": 1695535356378,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-24-09-12-error.log",
+            "hash": "6f3fb20ae2fba2f40a2b1108354c15d6c96b4610eabd3cdd21ad12aab4cc177d"
+        },
+        {
+            "date": 1695539044232,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\errors\\phu-2023-24-09-13-error.log",
+            "hash": "75b9abb286f2487b7c1ece5662734aadae50825ecb453a80f6b8050fa9084dba"
+        }
+    ],
+    "hashType": "sha256"
+}
