@@ -8,11 +8,7 @@ import { PrismaClient } from '@prisma/client';
 import config from '../../../config';
 import ApiError from '../../../errors/ApiError';
 import { jwtHelpers } from '../../../helpers/jwtHelpers';
-import {
-  ILoginUser,
-  ILoginUserResponse,
-  IRefreshTokenResponse,
-} from './auth.interface';
+import { ILoginUser, ILoginUserResponse } from './auth.interface';
 
 const prisma = new PrismaClient();
 
@@ -39,68 +35,68 @@ const loginUser = async (payload: ILoginUser): Promise<ILoginUserResponse> => {
   //create access token & refresh token
   const { email: adminEmail, role } = isUserExist;
 
-  const accessToken = jwtHelpers.createToken(
+  const token = jwtHelpers.createToken(
     { adminEmail, role },
     config.jwt.secret as Secret,
     config.jwt.expires_in as string
   );
 
-  const refreshToken = jwtHelpers.createToken(
-    { adminEmail, role },
-    config.jwt.refresh_secret as Secret,
-    config.jwt.refresh_expires_in as string
-  );
+  // const refreshToken = jwtHelpers.createToken(
+  //   { adminEmail, role },
+  //   config.jwt.refresh_secret as Secret,
+  //   config.jwt.refresh_expires_in as string
+  // );
 
-  console.log(accessToken, 'token');
+  // console.log(accessToken, 'token');
 
   return {
-    accessToken,
-    refreshToken,
+    token,
+    // refreshToken,
   };
 };
 
-const refreshToken = async (token: string): Promise<IRefreshTokenResponse> => {
-  //verify token
-  // invalid token - synchronous
-  let verifiedToken = null;
-  try {
-    verifiedToken = jwtHelpers.verifyToken(
-      token,
-      config.jwt.refresh_secret as Secret
-    );
-  } catch (err) {
-    throw new ApiError(httpStatus.FORBIDDEN, 'Invalid Refresh Token');
-  }
+// const refreshToken = async (token: string): Promise<IRefreshTokenResponse> => {
+//   //verify token
+//   // invalid token - synchronous
+//   let verifiedToken = null;
+//   try {
+//     verifiedToken = jwtHelpers.verifyToken(
+//       token,
+//       config.jwt.refresh_secret as Secret
+//     );
+//   } catch (err) {
+//     throw new ApiError(httpStatus.FORBIDDEN, 'Invalid Refresh Token');
+//   }
 
-  const { adminEmail } = verifiedToken;
-  // console.log(UserId, 'userId', verifiedToken);
+//   const { adminEmail } = verifiedToken;
+//   // console.log(UserId, 'userId', verifiedToken);
 
-  // user delete hoice kintu  refresh token ase
-  // checking deleted user's refresh token
+//   // user delete hoice kintu  refresh token ase
+//   // checking deleted user's refresh token
 
-  // const isUserExist = await UserModel.isUserExist(adminPhoneNumber);
-  // console.log(isUserExist);
-  const isUserExist = await prisma.user.findUnique(adminEmail);
-  if (!isUserExist) {
-    throw new ApiError(httpStatus.NOT_FOUND, 'User does not exist');
-  }
-  //generate new token
+//   // const isUserExist = await UserModel.isUserExist(adminPhoneNumber);
+//   // console.log(isUserExist);
+//   const isUserExist = await prisma.user.findUnique(adminEmail);
+//   if (!isUserExist) {
+//     throw new ApiError(httpStatus.NOT_FOUND, 'User does not exist');
+//   }
+//   //generate new token
 
-  const newAccessToken = jwtHelpers.createToken(
-    {
-      id: isUserExist.id,
-      role: isUserExist.role,
-    },
-    config.jwt.secret as Secret,
-    config.jwt.expires_in as string
-  );
+//   const newAccessToken = jwtHelpers.createToken(
+//     {
+//       id: isUserExist.id,
+//       role: isUserExist.role,
+//     },
+//     config.jwt.secret as Secret,
+//     config.jwt.expires_in as string
+//   );
 
-  return {
-    accessToken: newAccessToken,
-  };
-};
+//   return {
+//     accessToken: newAccessToken,
+//   };
+// };
 
 export const AuthService = {
   loginUser,
-  refreshToken,
+  // refreshToken,
 };

@@ -1,69 +1,35 @@
-# University Management Core Service
-This guide will walk you through the process of setting up the University Management Core Service Starter project. By following these steps, you will clone the project, install dependencies, and configure Prisma for database management. Let's get started!
+Live Link: https://book-catalog-backend-prisma-mauve.vercel.app
 
+Application Routes:
 
-## Installation Steps
-### Follow these steps to clone and set up starter project:
+User
 
-1. `Clone the project:` Open your terminal or command prompt and run the following command to clone the project repository:
+api/v1/auth/signup (POST)
+api/v1/auth/signin(POST)
+api/v1/users (GET)
+api/v1/users/2cb2e12f-5105-4cf6-817c-cdc6059ccd18 (Single GET)
+api/v1/users/2cb2e12f-5105-4cf6-817c-cdc6059ccd18 (PATCH)
+api/v1/users/2cb2e12f-5105-4cf6-817c-cdc6059ccd18 (DELETE) Include an
 
-```bash
-git clone https://github.com/Programming-Hero-Next-Level-Development/university-management-core-service-starter.git university-management-core-service
-```
+Category
 
-2. `Navigate into the project directory:` Use the cd command to navigate into the project directory:
+api/v1/categories/create-category (POST)
+api/v1/categories (GET)
+api/v1/categories/9fb74e5e-4517-4189-ba5a-61d22c4ff859 (Single GET)
+api/v1/categories/9fb74e5e-4517-4189-ba5a-61d22c4ff859 (PATCH)
+api/v1/categories/9fb74e5e-4517-4189-ba5a-61d22c4ff859 (DELETE)
 
-```bash
-cd university-management-core-service
-```
+Books
 
-3. `Install project dependencies:` Next, install the project dependencies by running the following command:
+api/v1/books/create-book (POST)
+api/v1/books (GET)
+api/v1/books/9fb74e5e-4517-4189-ba5a-61d22c4ff859/category (GET)
+api/v1/books/2abf2caf-e928-4abb-84f1-be839f7a1349 (GET)
+api/v1/books/2abf2caf-e928-4abb-84f1-be839f7a1349 (PATCH)
+api/v1/books/2abf2caf-e928-4abb-84f1-be839f7a1349 (DELETE)
 
-```bash
-yarn install
-```
+Order
 
-4. Configure Prisma and the database connection:
-
-- Add Prisma as a development dependency by running the following command:
-```bash
-yarn add prisma --save-dev
-```
-
-- Set up your Prisma project by creating the Prisma schema file using the following command:
-```bash
-npx prisma init
-```
-
-- Open the prisma/schema.prisma file and configure your database connection details.
-
-```bash
-datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
-}
-```
-
-- Create a .env file in the project root directory and set the DATABASE_URL environment variable. Replace the placeholders with your database connection details:
-```bash
-DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE?schema=SCHEMA"
-```
-
-5. Creating the database schema
-6. Migrate the database schema: Use the following command to create and apply the initial database schema:
-
-```bash
-npx prisma migrate dev --name init
-```
-This command creates a new migration file based on your schema changes and applies it to your database.
-
-6. `Install Prisma Client:` Install the Prisma Client library by running the following command:
-```bash
-yarn add @prisma/client
-```
-
-This command installs the Prisma Client, which provides an interface to interact with your database.
-
-That's it! You have successfully set up the University Management Core Service Starter project. You can now start exploring and working with the codebase. Refer to the project documentation or README for further instructions on how to run and use the core service.
-
-Happy coding!
+api/v1/orders/create-order (POST)
+api/v1/orders (GET)
+api/v1/orders/b1cb82a6-d33a-4cee-92b1-702ac0d18f89 (GET)

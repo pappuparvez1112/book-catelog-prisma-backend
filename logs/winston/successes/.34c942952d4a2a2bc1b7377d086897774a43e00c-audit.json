@@ -6,119 +6,14 @@
     "auditLog": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\.34c942952d4a2a2bc1b7377d086897774a43e00c-audit.json",
     "files": [
         {
-            "date": 1695043779121,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-18-09-19-success.log",
-            "hash": "3109872df86b0c5e38c1cf326fa078fada0e929534ad59082749f8bd2f3ff911"
+            "date": 1695587681313,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-25-09-02-success.log",
+            "hash": "fd2894a830be74ea968a0229089515d7cc8be50c87ae73fdb1fd5b849db493bc"
         },
         {
-            "date": 1695045722605,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-18-09-20-success.log",
-            "hash": "017b10f12c18e9c2b5cf96d4915f90d68093d6bdb87c83a6b6e09b0ae07c774e"
-        },
-        {
-            "date": 1695049414893,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-18-09-21-success.log",
-            "hash": "8b88c6e74f126f8600d4823f78fdbfe4af1fdc44a8d2ad1eda07a6c31781568d"
-        },
-        {
-            "date": 1695055258713,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-18-09-22-success.log",
-            "hash": "c184ab1c8e55e1ad025d7990d2d75c9a8a1dd40a8fc997bc45c33faa44a87625"
-        },
-        {
-            "date": 1695056559304,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-18-09-23-success.log",
-            "hash": "4a7ffe981a5f12c26cb4b42c7b9154602dedca326b1f18717d25df3d2018dd47"
-        },
-        {
-            "date": 1695061207170,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-19-09-00-success.log",
-            "hash": "d487e8b4b53c5d1d1c34bfb6c2550f20e028fc4f581f736833ee118eb8d75032"
-        },
-        {
-            "date": 1695063619681,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-19-09-01-success.log",
-            "hash": "0f38f615dce97c0a67a4f099de9d5f9616ccce6c5d4e829641edc0381444b0b9"
-        },
-        {
-            "date": 1695476509529,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-23-09-19-success.log",
-            "hash": "0d24806abd8b2ef4438e21a00d60f4f471cfa17c80eef9764c7d89f96a458d97"
-        },
-        {
-            "date": 1695477738752,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-23-09-20-success.log",
-            "hash": "2548b921209adf5b1917a2df01ca3efb8afae7c44227ea850b9b520af4aa8190"
-        },
-        {
-            "date": 1695481644206,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-23-09-21-success.log",
-            "hash": "d55e2a0b3166c4a7c7d98df8bdb12206302ee2ff8b076646319a4978153ccb22"
-        },
-        {
-            "date": 1695523128444,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-24-09-08-success.log",
-            "hash": "a144229160f7b7c4c550ecd9cb07f3c4d0d35a45f12d9b108fc87f542e1d0121"
-        },
-        {
-            "date": 1695527113412,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-24-09-09-success.log",
-            "hash": "db0bb87f51722491c319a44ce698f691132ae73f8f1542c6f1a96692dd1ce9a1"
-        },
-        {
-            "date": 1695528463491,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-24-09-10-success.log",
-            "hash": "9fc323292bd47a739de89402009fc5ac49daddbefa9977e082d785bdae798b31"
-        },
-        {
-            "date": 1695531606590,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-24-09-11-success.log",
-            "hash": "36be16f0dd138770eebbf503679f41415b414803fe1bc15ef04cfaffab776102"
-        },
-        {
-            "date": 1695535356370,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-24-09-12-success.log",
-            "hash": "7b4f3b0c146eaa29d2eb18dded9598f93d04e07736623de002b31ce6ce6f221f"
-        },
-        {
-            "date": 1695539044223,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-24-09-13-success.log",
-            "hash": "31d6316f7377743323ffc16a6ef44351ba1f1ed94d37e141f9ed781939228388"
-        },
-        {
-            "date": 1695560868423,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-24-09-19-success.log",
-            "hash": "07bba98bc40a50841ea6ade84e6c8d6f32bfee0208fb102cf0c7e2737055aa12"
-        },
-        {
-            "date": 1695564456352,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-24-09-20-success.log",
-            "hash": "bb3e6bcd08253764c272d8f30bfc0a92996081acc552d06dde81d9d5dde29d92"
-        },
-        {
-            "date": 1695568735823,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-24-09-21-success.log",
-            "hash": "58b7354c03aafd0669ad09d3f698d13551b95adc2aeb110251c0530ec9242653"
-        },
-        {
-            "date": 1695571985230,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-24-09-22-success.log",
-            "hash": "2ac51019198aacb6b6722222e8614eca25baeaf4474b381c3918477ce714477c"
-        },
-        {
-            "date": 1695577479070,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-24-09-23-success.log",
-            "hash": "57ec0567778943f872553b66b6abd65e4702540ce0f3639687aaca25cf14018e"
-        },
-        {
-            "date": 1695579564818,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-25-09-00-success.log",
-            "hash": "d9e162b1baba82594933c30ce85aa317449415c23512e771148088b2455a411d"
-        },
-        {
-            "date": 1695582882882,
-            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-25-09-01-success.log",
-            "hash": "77233cb271731cc61da1cae59348e17b1aff684a4a1bbd31d1d6a20efd0022d7"
+            "date": 1695589625837,
+            "name": "G:\\Next-level-web-development-assignments\\book_catalog_backend_prisma\\logs\\winston\\successes\\phu-2023-25-09-03-success.log",
+            "hash": "0760ffe4788d6ed83a96d3fb6405f6179c558a8d2d85d54971f6cbb1799c0e3b"
         }
     ],
     "hashType": "sha256"
